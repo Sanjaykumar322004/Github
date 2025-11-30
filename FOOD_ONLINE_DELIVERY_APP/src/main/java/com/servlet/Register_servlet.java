@@ -30,9 +30,7 @@ public class Register_servlet extends HttpServlet {
 		String role= request.getParameter("role");
 		String pass= request.getParameter("password");
 		
-		
-		
-		
+				
 		User user = new User();
 		
 		user.setname(n);
@@ -58,10 +56,8 @@ public class Register_servlet extends HttpServlet {
 			 response.sendRedirect("Register.jsp?error=1");
 			 
 		 }
-		 
-		
-		
-		
+		 	
 	}
 
 }
+
