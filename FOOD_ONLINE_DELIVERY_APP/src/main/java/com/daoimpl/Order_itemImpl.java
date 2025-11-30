@@ -53,10 +53,7 @@ public class Order_itemImpl implements Order_Itemdao{
 		}
 		
 	}
-	
-	
-	
-	
+		
 
 	@Override
 	public void updateOrder_item(Order_item order_item) {
@@ -181,3 +178,4 @@ public class Order_itemImpl implements Order_Itemdao{
 	}
 
 }
+
