@@ -102,12 +102,6 @@ public class RestaurantImpl implements RestaurantDao{
 		}
 	}
 		
-		
-		 
-	       
-		
-	
-
 	@Override
 	public void deleteRestaurant(int Restaurant_ID) {
 		// TODO Auto-generated method stub
@@ -216,3 +210,4 @@ public class RestaurantImpl implements RestaurantDao{
 	}
 
 }
+
