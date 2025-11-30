@@ -28,10 +28,6 @@ public class OrdersImpl implements OrdersDao {
 	String query6= "SELECT * FROM orders WHERE `user_id` = ? ORDER BY order_date DESC";
 			 	                 
 	
-	
-	
-	
-	
 	static Orders order;
 	int  oi;
 	
@@ -67,18 +63,14 @@ public class OrdersImpl implements OrdersDao {
 		}
 		}
 		
-		
-		
+			
 		catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
+			
 		return oi;
-		
-		
-		
+				
 	}
 	@Override
 	public void updateOrder(Orders order) {
@@ -260,3 +252,4 @@ public class OrdersImpl implements OrdersDao {
 
 	
 }
+
