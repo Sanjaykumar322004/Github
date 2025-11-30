@@ -17,11 +17,6 @@ public class Orders {
 	public Orders() {
 	}
 	
-	
-
-
-	
-
 
 	public Orders(int order_id, int user_id, int restaurant_id, Timestamp order_date, int total_amount, String status,
 			String payment_mode, String address) {
@@ -35,12 +30,6 @@ public class Orders {
 		this.payment_mode = payment_mode;
 		this.address = address;
 	}
-
-
-
-
-
-
 
 	public int getorder_id() {
 		return order_id;
@@ -119,12 +108,6 @@ public class Orders {
 		this.address = address;
 	}
 
-
-
-
-
-
-
 	@Override
 	public String toString() {
 		return "Orders [order_id=" + order_id + ", user_id=" + user_id + ", restaurant_id=" + restaurant_id
@@ -148,3 +131,4 @@ public class Orders {
 	
 
 }
+
