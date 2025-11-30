@@ -9,8 +9,7 @@ public class Order_item {
 	private int  quantity;
 	private int total_price;
 	
-	
-	
+
 	public Order_item() {
 		// TODO Auto-generated constructor stub
 	}
@@ -98,3 +97,4 @@ public class Order_item {
 	
 
 }
+
