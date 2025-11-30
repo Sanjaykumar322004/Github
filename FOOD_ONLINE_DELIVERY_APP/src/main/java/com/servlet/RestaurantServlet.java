@@ -17,7 +17,6 @@ import com.daomodel.Restaurant;
 
 
 
-
 @WebServlet("/getAllRestaurant")
 public class RestaurantServlet extends HttpServlet {
 	
@@ -37,16 +36,8 @@ public class RestaurantServlet extends HttpServlet {
 		//call the servlets
 		RequestDispatcher	rd=request.getRequestDispatcher("Restaurant.jsp");
 		rd.forward(request, response);
-		
-		
-		
-		
-		
-		
-		 
-		 
+				 
 	}
 
-
-
 }
+
